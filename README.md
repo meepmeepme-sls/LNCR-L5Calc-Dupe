@@ -1,6 +1,6 @@
 # LNCR-L5Calc-Dupe
 
-A standalone duplicate of the **Level 5 Robotics Ember** combat robotics calculator and design suite, configured and optimized for the **Cloudflare Pages Free Plan**.
+A standalone duplicate of the **National Havoc Robot League (NHRL) NHRL** combat robotics calculator and design suite, configured and optimized for the **Cloudflare Pages Free Plan**.
 
 ---
 
@@ -63,7 +63,7 @@ Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## 📁 Repository Structure
 
-- `index.html` - Ember home dashboard
+- `index.html` - NHRL home dashboard
 - `[tool]/index.html` & `[tool].html` - Subpage static entry points with clean URL support
 - `_next/` - Client React components, Next.js chunk bundles, styles, and web fonts
 - `_rsc/` - React Server Component payloads for instantaneous client-side transitions

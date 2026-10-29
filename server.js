@@ -46,7 +46,7 @@ const server = http.createServer((req, res) => {
       return res.end(JSON.stringify({ error: 'Missing url parameter' }));
     }
     const https = require('https');
-    https.get(`https://ember.level5robotics.com/api/scrape-points?url=${encodeURIComponent(targetUrl)}`, (upstream) => {
+    https.get(`https://nhrl.io/api/scrape-points?url=${encodeURIComponent(targetUrl)}`, (upstream) => {
       res.writeHead(upstream.statusCode, {
         'Content-Type': upstream.headers['content-type'] || 'application/json',
         'Access-Control-Allow-Origin': '*'

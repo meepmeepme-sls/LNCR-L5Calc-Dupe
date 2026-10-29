@@ -1,7 +1,7 @@
 {
   "name": "lncr-l5calc-dupe",
   "version": "1.0.0",
-  "description": "Level 5 Robotics Combat Robotics Ember Calculator Suite - Duplicate formatted for Cloudflare Pages",
+  "description": "National Havoc Robot League (NHRL) Combat Robotics NHRL Calculator Suite - Duplicate formatted for Cloudflare Pages",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",

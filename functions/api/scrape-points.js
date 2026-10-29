@@ -11,7 +11,7 @@ export async function onRequest(context) {
   }
 
   try {
-    const upstreamUrl = `https://ember.level5robotics.com/api/scrape-points?url=${encodeURIComponent(targetUrl)}`;
+    const upstreamUrl = `https://nhrl.io/api/scrape-points?url=${encodeURIComponent(targetUrl)}`;
     const upstreamResp = await fetch(upstreamUrl, {
       headers: {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64)"

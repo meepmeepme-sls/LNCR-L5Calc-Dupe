@@ -1,0 +1,12 @@
+# Cloudflare Pages Redirects & Clean URLs
+# Clean URL fallback rules
+/drivetrain           /drivetrain/index.html        200
+/weapon               /weapon/index.html            200
+/builder              /builder/index.html           200
+/center-distance      /center-distance/index.html   200
+/scale-factors        /scale-factors/index.html     200
+/battery-size         /battery-size/index.html      200
+/watt-hour            /watt-hour/index.html         200
+/torque               /torque/index.html            200
+/tach                 /tach/index.html              200
+/tournament           /tournament/index.html        200

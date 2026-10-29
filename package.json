@@ -1,0 +1,23 @@
+{
+  "name": "lncr-l5calc-dupe",
+  "version": "1.0.0",
+  "description": "Level 5 Robotics Combat Robotics Ember Calculator Suite - Duplicate formatted for Cloudflare Pages",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "preview": "node server.js",
+    "deploy": "npx wrangler pages deploy . --project-name lncr-l5calc-dupe"
+  },
+  "keywords": [
+    "combat-robotics",
+    "calculator",
+    "battlebots",
+    "drivetrain",
+    "weapon",
+    "center-distance",
+    "cloudflare-pages"
+  ],
+  "author": "meepmeepme-sls",
+  "license": "MIT"
+}
